@@ -1,0 +1,38 @@
+section{
+    width:80%;
+    margin-left: 50%;
+}
+form
+{
+    width:30%;
+}
+legend
+{
+    text-align: center;
+}
+
+fieldset
+{
+    font-size: x-large;
+    color:blue;
+    border: 2px solid red;
+}
+input
+{
+    width:80%;
+    margin-bottom: 2%;
+    margin-left: 12%;
+}
+input[type="submit"]
+{
+     width:50%;
+     height:30px;
+     border-radius: 50% 50% 50% 50%;
+    margin-bottom: 2%;
+    font-style: italic;
+    font-size: large;
+    margin-left: 24%;
+    background-color: blue;
+    color:white;
+
+}
