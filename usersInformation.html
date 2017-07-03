@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+
+<head>
+<link type="text/css" rel="stylesheet" href="./css/log.css">    
+<script type="text/javascript" src="../../bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="../modules/userModule.js"></script>
+<script type="text/javascript" src="../modules/insurance_customer.js"></script>
+<script type="text/javascript" src="../services/userServices.js"></script>
+<script type="text/javascript" src="../controllers/userController.js"></script>
+</head>
+<body ng-app="insModule">
+   <section ng-controller="usercontroller">
+     <table>
+         <tr ng-repeat="user in users.data">
+              <td>{{user.name}}</td>
+              <td>{{user.phone}}</td>
+         </tr>
+     </table>
+   </section>
+
+</body>
+
+</html>
